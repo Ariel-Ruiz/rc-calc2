@@ -6309,7 +6309,32 @@ export default function Rollertap() {
   useEffect(() => {
     const savedRows = localStorage.getItem('rollertap_rows');
     if (savedRows) {
-      setRows(JSON.parse(savedRows));
+      try {
+        const loadedRows = JSON.parse(savedRows);
+        // Verificar que todos los hamsters existan
+        setRows(prevRows => {
+          // Mapear por id para fácil comparación
+          const defaultRowsById = Object.fromEntries(prevRows.map(r => [r.id, r]));
+          const loadedRowsById = Object.fromEntries(loadedRows.map((r: any) => [r.id, r]));
+          // Agregar los que faltan
+          const mergedRows = Object.values(defaultRowsById).map(defaultRow => {
+            if (loadedRowsById[defaultRow.id]) {
+              // Mantener el local pero actualizar levels si han cambiado
+              return {
+                ...loadedRowsById[defaultRow.id],
+                levels: defaultRow.levels,
+                image: defaultRow.image,
+                name: defaultRow.name
+              };
+            }
+            return defaultRow;
+          });
+          return mergedRows;
+        });
+      } catch {
+        // Si hay error, usar por defecto
+        setRows(prevRows => prevRows);
+      }
     }
   }, []);
 
