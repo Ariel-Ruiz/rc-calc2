@@ -18,7 +18,7 @@ export default function Header() {
           <button className="navbar-toggle" onClick={toggleMenu} aria-label="Toggle navigation menu">
             ☰
           </button>
-          <h1 className="navbar-title">{t.title || 'Calculadora Rollercoin 🦆'}</h1>
+          <h1 className="navbar-title">{t?.page_title}🦆</h1>
           <button className="navbar-lang-movil" id="toggleLang" onClick={toggleLang}>
             {lang}
           </button>

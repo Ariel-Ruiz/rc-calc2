@@ -421,7 +421,7 @@ header {
 */
 @media (max-width: 768px) {
   .navbar {
-    padding: 1rem;
+    padding: .6rem;
   }
 
   .navbar-tittle {
