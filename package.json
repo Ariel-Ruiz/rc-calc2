@@ -1,9 +1,9 @@
 {
-  "name": "rc-calc2",
+  "name": "rc-calculator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ariel-ruiz.github.io/rc-calc2/",
+  "homepage": "https://ariel-ruiz.github.io/rc-calculator/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
