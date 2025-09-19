@@ -3,20 +3,33 @@ import { useI18n } from '../contexts/I18nProvider'
 import { fetchAllPrices, fetchPrice } from '../lib/prices'
 import { convertirAHs, tiempoASegundos } from '../lib/calculations'
 
+import rltIcon from '../assets/symbols/rlt.svg'
+import rstIcon from '../assets/symbols/rst.svg'
+import btcIcon from '../assets/symbols/btc.svg'
+import ethIcon from '../assets/symbols/eth.svg'
+import ltcIcon from '../assets/symbols/ltc.svg'
+import bnbIcon from '../assets/symbols/bnb.svg'
+import dogeIcon from '../assets/symbols/doge.svg'
+import xrpIcon from '../assets/symbols/xrp.svg'
+import trxIcon from '../assets/symbols/trx.svg'
+import solIcon from '../assets/symbols/sol.svg'
+import polIcon from '../assets/symbols/matic.svg'
+import exampleImg from '../assets/example.png'
+
 type ParsedLine = { symbol: string; power: string; reward: string; blockTime: string }
 
 const symbolIcons: Record<string, string> = {
-  RLT: 'rc-calc2/symbols/rlt.svg',
-  RST: 'rc-calc2/symbols/rst.svg',
-  BTC: 'rc-calc2/symbols/btc.svg',
-  ETH: 'rc-calc2/symbols/eth.svg',
-  LTC: 'rc-calc2/symbols/ltc.svg',
-  BNB: 'rc-calc2/symbols/bnb.svg',
-  DOGE: 'rc-calc2/symbols/doge.svg',
-  XRP: 'rc-calc2/symbols/xrp.svg',
-  TRX: 'rc-calc2/symbols/trx.svg',
-  SOL: 'rc-calc2/symbols/sol.svg',
-  POL: 'rc-calc2/symbols/matic.svg'
+  RLT: rltIcon,
+  RST: rstIcon,
+  BTC: btcIcon,
+  ETH: ethIcon,
+  LTC: ltcIcon,
+  BNB: bnbIcon,
+  DOGE: dogeIcon,
+  XRP: xrpIcon,
+  TRX: trxIcon,
+  SOL: solIcon,
+  POL: polIcon
 }
 
 export default function Home() {
@@ -126,7 +139,7 @@ export default function Home() {
     <div className="container">
       <div className="input-section">
         <div id="warning" style={{ color: '#e85217' }}>{t.warning || 'Asegúrese...'}</div>
-        <img src="rc-calc2/example.png" width="70%" alt="example" />
+        <img src={exampleImg} width="70%" alt="example" />
         <h5 id="networkLabel">{t.networkLabel || 'Red de tu liga'}</h5>
         <textarea
           id="networkInput"

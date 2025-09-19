@@ -4,6 +4,23 @@ import { useState } from 'react';
 import '../styles/rollertap.css';
 import { useEffect } from 'react';
 import { useI18n } from '../contexts/I18nProvider';
+import funnyHamster from '../assets/rollertap/1.png';
+import magicHamster from '../assets/rollertap/2.png';
+import mightyHamster from '../assets/rollertap/3.png';
+import handsomeHamster from '../assets/rollertap/4.png';
+import pepeHamster from '../assets/rollertap/5.png';
+import devilHamster from '../assets/rollertap/6.png';
+import hamdelion from '../assets/rollertap/7.png';
+import wizardHamster from '../assets/rollertap/8.png';
+import roboHamster from '../assets/rollertap/9.png';
+import popeHamster from '../assets/rollertap/10.png';
+import banditHamster from '../assets/rollertap/11.png';
+import poorHamdes from '../assets/rollertap/12.png';
+import hamsterita from '../assets/rollertap/13.png';
+import hamJinn from '../assets/rollertap/14.png';
+import bigBossHamster from '../assets/rollertap/16.png';
+import ofiiceHamster from '../assets/rollertap/22.png';
+import fifiHamster from '../assets/rollertap/23.png';
 
 export default function Rollertap() {
   const { t } = useI18n()
@@ -12,7 +29,7 @@ export default function Rollertap() {
     {
       "id": 1,
       "name": "Funny Hamster",
-      "image": "rollertap/1.png",
+      "image": funnyHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -597,7 +614,7 @@ export default function Rollertap() {
     {
       "id": 2,
       "name": "Magic Hamster",
-      "image": "rollertap/2.png",
+      "image": magicHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -972,7 +989,7 @@ export default function Rollertap() {
     {
       "id": 3,
       "name": "Mighty Hamster",
-      "image": "rollertap/3.png",
+      "image": mightyHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -1299,7 +1316,7 @@ export default function Rollertap() {
     {
       "id": 4,
       "name": "Handsome Hamster",
-      "image": "rollertap/4.png",
+      "image": handsomeHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -1614,7 +1631,7 @@ export default function Rollertap() {
     {
       "id": 5,
       "name": "Pepe Hamster",
-      "image": "rollertap/5.png",
+      "image": pepeHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -1923,7 +1940,7 @@ export default function Rollertap() {
     {
       "id": 6,
       "name": "Devil Hamster",
-      "image": "rollertap/6.png",
+      "image": devilHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -2232,7 +2249,7 @@ export default function Rollertap() {
     {
       "id": 7,
       "name": "Hamdelion",
-      "image": "rollertap/7.png",
+      "image": hamdelion,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -2541,7 +2558,7 @@ export default function Rollertap() {
     {
       "id": 8,
       "name": "Wizard Hamster",
-      "image": "rollertap/8.png",
+      "image": wizardHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -2850,7 +2867,7 @@ export default function Rollertap() {
     {
       "id": 9,
       "name": "Robo-Hamster",
-      "image": "rollertap/9.png",
+      "image": roboHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -3159,7 +3176,7 @@ export default function Rollertap() {
     {
       "id": 10,
       "name": "Pope Hamster",
-      "image": "rollertap/10.png",
+      "image": popeHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -3468,7 +3485,7 @@ export default function Rollertap() {
     {
       "id": 11,
       "name": "Bandit Hamster",
-      "image": "rollertap/11.png",
+      "image": banditHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -3837,7 +3854,7 @@ export default function Rollertap() {
     {
       "id": 12,
       "name": "Poor Hamdes",
-      "image": "rollertap/12.png",
+      "image": poorHamdes,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -4206,7 +4223,7 @@ export default function Rollertap() {
     {
       "id": 13,
       "name": "Hamsterita",
-      "image": "rollertap/13.png",
+      "image": hamsterita,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -4491,7 +4508,7 @@ export default function Rollertap() {
     {
       "id": 14,
       "name": "HamJinn",
-      "image": "rollertap/14.png",
+      "image": hamJinn,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -4812,7 +4829,7 @@ export default function Rollertap() {
     {
       "id": 16,
       "name": "Big Boss Hamster",
-      "image": "rollertap/16.png",
+      "image": bigBossHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -5097,7 +5114,7 @@ export default function Rollertap() {
     {
       "id": 22,
       "name": "Ofiice Hamster",
-      "image": "rollertap/22.png",
+      "image": ofiiceHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
@@ -5358,7 +5375,7 @@ export default function Rollertap() {
     {
       "id": 23,
       "name": "Fifi Hamster",
-      "image": "rollertap/23.png",
+      "image": fifiHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
