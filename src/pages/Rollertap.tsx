@@ -18,7 +18,9 @@ import banditHamster from '../assets/rollertap/11.png';
 import poorHamdes from '../assets/rollertap/12.png';
 import hamsterita from '../assets/rollertap/13.png';
 import hamJinn from '../assets/rollertap/14.png';
+import mrHamster from '../assets/rollertap/15.png';
 import bigBossHamster from '../assets/rollertap/16.png';
+import uncleBlessing from '../assets/rollertap/19.gif';
 import ofiiceHamster from '../assets/rollertap/22.png';
 import fifiHamster from '../assets/rollertap/23.png';
 
@@ -4827,6 +4829,375 @@ export default function Rollertap() {
       ]
     },
     {
+      "id": 15,
+      "name": "Mr. Hamster",
+      "image": mrHamster,
+      "currentLevel": 0,
+      "coinsPerHour": 0,
+      "levels": [
+        {
+          "level": 1,
+          "coinsPerHour": 20015,
+          "price": 399250,
+          "roiHours": 19.94753935
+        },
+        {
+          "level": 2,
+          "coinsPerHour": 20016,
+          "price": 471115,
+          "roiHours": 23.53692046
+        },
+        {
+          "level": 3,
+          "coinsPerHour": 20016,
+          "price": 556000,
+          "roiHours": 27.77777778
+        },
+        {
+          "level": 4,
+          "coinsPerHour": 20017,
+          "price": 656000,
+          "roiHours": 32.77214368
+        },
+        {
+          "level": 5,
+          "coinsPerHour": 20017,
+          "price": 774000,
+          "roiHours": 38.66713294
+        },
+        {
+          "level": 6,
+          "coinsPerHour": 20017,
+          "price": 913000,
+          "roiHours": 45.61123045
+        },
+        {
+          "level": 7,
+          "coinsPerHour": 20017,
+          "price": 1078000,
+          "roiHours": 53.85422391
+        },
+        {
+          "level": 8,
+          "coinsPerHour": 20018,
+          "price": 1272000,
+          "roiHours": 63.54281147
+        },
+        {
+          "level": 9,
+          "coinsPerHour": 20018,
+          "price": 1501000,
+          "roiHours": 74.98251574
+        },
+        {
+          "level": 10,
+          "coinsPerHour": 20019,
+          "price": 1771000,
+          "roiHours": 88.46595734
+        },
+        {
+          "level": 11,
+          "coinsPerHour": 20019,
+          "price": 2090000,
+          "roiHours": 104.4008192
+        },
+        {
+          "level": 12,
+          "coinsPerHour": 20020,
+          "price": 2466000,
+          "roiHours": 123.1768232
+        },
+        {
+          "level": 13,
+          "coinsPerHour": 20021,
+          "price": 2910000,
+          "roiHours": 145.3473852
+        },
+        {
+          "level": 14,
+          "coinsPerHour": 20022,
+          "price": 3433000,
+          "roiHours": 171.4613925
+        },
+        {
+          "level": 15,
+          "coinsPerHour": 20023,
+          "price": 4051000,
+          "roiHours": 202.3173351
+        },
+        {
+          "level": 16,
+          "coinsPerHour": 20024,
+          "price": 4781000,
+          "roiHours": 238.7634838
+        },
+        {
+          "level": 17,
+          "coinsPerHour": 20026,
+          "price": 5641000,
+          "roiHours": 281.683811
+        },
+        {
+          "level": 18,
+          "coinsPerHour": 20027,
+          "price": 6656000,
+          "roiHours": 332.3513257
+        },
+        {
+          "level": 19,
+          "coinsPerHour": 20029,
+          "price": 7855000,
+          "roiHours": 392.1813371
+        },
+        {
+          "level": 20,
+          "coinsPerHour": 20032,
+          "price": 9268000,
+          "roiHours": 462.6597444
+        },
+        {
+          "level": 21,
+          "coinsPerHour": 20034,
+          "price": 10937000,
+          "roiHours": 545.9219327
+        },
+        {
+          "level": 22,
+          "coinsPerHour": 20038,
+          "price": 12905000,
+          "roiHours": 644.0263499
+        },
+        {
+          "level": 23,
+          "coinsPerHour": 20041,
+          "price": 15228000,
+          "roiHours": 759.8423232
+        },
+        {
+          "level": 24,
+          "coinsPerHour": 20045,
+          "price": 17969000,
+          "roiHours": 896.4330257
+        },
+        {
+          "level": 25,
+          "coinsPerHour": 20050,
+          "price": 21204000,
+          "roiHours": 1057.55611
+        },
+        {
+          "level": 26,
+          "coinsPerHour": 20056,
+          "price": 25020000,
+          "roiHours": 1247.50698
+        },
+        {
+          "level": 27,
+          "coinsPerHour": 20062,
+          "price": 29524000,
+          "roiHours": 1471.637922
+        },
+        {
+          "level": 28,
+          "coinsPerHour": 20070,
+          "price": 34838000,
+          "roiHours": 1735.824614
+        },
+        {
+          "level": 29,
+          "coinsPerHour": 20079,
+          "price": 41109000,
+          "roiHours": 2047.362916
+        },
+        {
+          "level": 30,
+          "coinsPerHour": 20089,
+          "price": 48509000,
+          "roiHours": 2414.704565
+        },
+        {
+          "level": 31,
+          "coinsPerHour": 20101,
+          "price": 57241000,
+          "roiHours": 2847.66927
+        },
+        {
+          "level": 32,
+          "coinsPerHour": 20115,
+          "price": 67544000,
+          "roiHours": 3357.89212
+        },
+        {
+          "level": 33,
+          "coinsPerHour": 20131,
+          "price": 79702000,
+          "roiHours": 3959.167453
+        },
+        {
+          "level": 34,
+          "coinsPerHour": 20149,
+          "price": 94048000,
+          "roiHours": 4667.626185
+        },
+        {
+          "level": 35,
+          "coinsPerHour": 20170,
+          "price": 110977000,
+          "roiHours": 5502.0823
+        },
+        {
+          "level": 36,
+          "coinsPerHour": 20195,
+          "price": 130953000,
+          "roiHours": 6484.426838
+        },
+        {
+          "level": 37,
+          "coinsPerHour": 20224,
+          "price": 154524000,
+          "roiHours": 7640.625
+        },
+        {
+          "level": 38,
+          "coinsPerHour": 20258,
+          "price": 182339000,
+          "roiHours": 9000.839175
+        },
+        {
+          "level": 39,
+          "coinsPerHour": 20296,
+          "price": 215160000,
+          "roiHours": 10601.10367
+        },
+        {
+          "level": 40,
+          "coinsPerHour": 20341,
+          "price": 253889000,
+          "roiHours": 12481.63807
+        },
+        {
+          "level": 41,
+          "coinsPerHour": 20394,
+          "price": 299589000,
+          "roiHours": 14690.0559
+        },
+        {
+          "level": 42,
+          "coinsPerHour": 20454,
+          "price": 353514000,
+          "roiHours": 17283.36756
+        },
+        {
+          "level": 43,
+          "coinsPerHour": 20525,
+          "price": 417147000,
+          "roiHours": 20323.84896
+        },
+        {
+          "level": 44,
+          "coinsPerHour": 20606,
+          "price": 492234000,
+          "roiHours": 23887.89673
+        },
+        {
+          "level": 45,
+          "coinsPerHour": 20701,
+          "price": 581000000,
+          "roiHours": 28066.27699
+        },
+        {
+          "level": 46,
+          "coinsPerHour": 20810,
+          "price": 685000000,
+          "roiHours": 32916.86689
+        },
+        {
+          "level": 47,
+          "coinsPerHour": 20938,
+          "price": 809000000,
+          "roiHours": 38637.88327
+        },
+        {
+          "level": 48,
+          "coinsPerHour": 21085,
+          "price": 954000000,
+          "roiHours": 45245.43514
+        },
+        {
+          "level": 49,
+          "coinsPerHour": 21257,
+          "price": 1126000000,
+          "roiHours": 52970.78609
+        },
+        {
+          "level": 50,
+          "coinsPerHour": 21455,
+          "price": 1329000000,
+          "roiHours": 61943.60289
+        },
+        {
+          "level": 51,
+          "coinsPerHour": 21686,
+          "price": 1586000000,
+          "roiHours": 73134.74131
+        },
+        {
+          "level": 52,
+          "coinsPerHour": 21953,
+          "price": 1850000000,
+          "roiHours": 84270.94247
+        },
+        {
+          "level": 53,
+          "coinsPerHour": 22263,
+          "price": 2183000000,
+          "roiHours": 98055.06895
+        },
+        {
+          "level": 54,
+          "coinsPerHour": 22623,
+          "price": 2576000000,
+          "roiHours": 113866.4191
+        },
+        {
+          "level": 55,
+          "coinsPerHour": 23040,
+          "price": 3040000000,
+          "roiHours": 131944.4444
+        },
+        {
+          "level": 56,
+          "coinsPerHour": 23524,
+          "price": 3587000000,
+          "roiHours": 152482.571
+        },
+        {
+          "level": 57,
+          "coinsPerHour": 24085,
+          "price": 4233000000,
+          "roiHours": 175752.5431
+        },
+        {
+          "level": 58,
+          "coinsPerHour": 24737,
+          "price": 4995000000,
+          "roiHours": 201924.243
+        },
+        {
+          "level": 59,
+          "coinsPerHour": 25492,
+          "price": 5894000000,
+          "roiHours": 231209.7913
+        },
+        {
+          "level": 60,
+          "coinsPerHour": 26369,
+          "price": 6955000000,
+          "roiHours": 263756.684
+        }
+      ]
+    },
+    {
       "id": 16,
       "name": "Big Boss Hamster",
       "image": bigBossHamster,
@@ -5620,8 +5991,318 @@ export default function Rollertap() {
           "roiHours": 470068.6261
         }
       ]
-    }
+    },
+    
   ]);
+  const [unclesBlessing, setUnclesBlessing] = useState({
+    "id": 19,
+    "name": "Uncle's Blessing",
+    "image": uncleBlessing,
+    "currentLevel": 0,
+    "value": 0,
+    "levels": [
+      {
+        "level": 1,
+        "coinsPerHour": "Lvl 1",
+        "value": 0.002,
+        "price": 50000
+      },
+      {
+        "level": 2,
+        "coinsPerHour": "Lvl 2",
+        "value": 0.003,
+        "price": 55000
+      },
+      {
+        "level": 3,
+        "coinsPerHour": "Lvl 3",
+        "value": 0.004,
+        "price": 60500
+      },
+      {
+        "level": 4,
+        "coinsPerHour": "Lvl 4",
+        "value": 0.005,
+        "price": 66550
+      },
+      {
+        "level": 5,
+        "coinsPerHour": "Lvl 5",
+        "value": 0.01,
+        "price": 73205
+      },
+      {
+        "level": 6,
+        "coinsPerHour": "Lvl 6",
+        "value": 0.011,
+        "price": 80526
+      },
+      {
+        "level": 7,
+        "coinsPerHour": "Lvl 7",
+        "value": 0.012,
+        "price": 88578
+      },
+      {
+        "level": 8,
+        "coinsPerHour": "Lvl 8",
+        "value": 0.013,
+        "price": 97436
+      },
+      {
+        "level": 9,
+        "coinsPerHour": "Lvl 9",
+        "value": 0.014,
+        "price": 107179
+      },
+      {
+        "level": 10,
+        "coinsPerHour": "Lvl 10",
+        "value": 0.02,
+        "price": 117897
+      },
+      {
+        "level": 11,
+        "coinsPerHour": "Lvl 11",
+        "value": 0.024,
+        "price": 129687
+      },
+      {
+        "level": 12,
+        "coinsPerHour": "Lvl 12",
+        "value": 0.028,
+        "price": 142656
+      },
+      {
+        "level": 13,
+        "coinsPerHour": "Lvl 13",
+        "value": 0.032,
+        "price": 156921
+      },
+      {
+        "level": 14,
+        "coinsPerHour": "Lvl 14",
+        "value": 0.036,
+        "price": 172614
+      },
+      {
+        "level": 15,
+        "coinsPerHour": "Lvl 15",
+        "value": 0.04,
+        "price": 189875
+      },
+      {
+        "level": 16,
+        "coinsPerHour": "Lvl 16",
+        "value": 0.044,
+        "price": 208862
+      },
+      {
+        "level": 17,
+        "coinsPerHour": "Lvl 17",
+        "value": 0.048,
+        "price": 229749
+      },
+      {
+        "level": 18,
+        "coinsPerHour": "Lvl 18",
+        "value": 0.052,
+        "price": 252724
+      },
+      {
+        "level": 19,
+        "coinsPerHour": "Lvl 19",
+        "value": 0.056,
+        "price": 277996
+      },
+      {
+        "level": 20,
+        "coinsPerHour": "Lvl 20",
+        "value": 0.06,
+        "price": 305795
+      },
+      {
+        "level": 21,
+        "coinsPerHour": "Lvl 21",
+        "value": 0.064,
+        "price": 336375
+      },
+      {
+        "level": 22,
+        "coinsPerHour": "Lvl 22",
+        "value": 0.068,
+        "price": 370012
+      },
+      {
+        "level": 23,
+        "coinsPerHour": "Lvl 23",
+        "value": 0.072,
+        "price": 407014
+      },
+      {
+        "level": 24,
+        "coinsPerHour": "Lvl 24",
+        "value": 0.076,
+        "price": 447715
+      },
+      {
+        "level": 25,
+        "coinsPerHour": "Lvl 25",
+        "value": 0.08,
+        "price": 492487
+      },
+      {
+        "level": 26,
+        "coinsPerHour": "Lvl 26",
+        "value": 0.084,
+        "price": 542000
+      },
+      {
+        "level": 27,
+        "coinsPerHour": "Lvl 27",
+        "value": 0.088,
+        "price": 596000
+      },
+      {
+        "level": 28,
+        "coinsPerHour": "Lvl 28",
+        "value": 0.092,
+        "price": 656000
+      },
+      {
+        "level": 29,
+        "coinsPerHour": "Lvl 29",
+        "value": 0.096,
+        "price": 721000
+      },
+      {
+        "level": 30,
+        "coinsPerHour": "Lvl 30",
+        "value": 0.1,
+        "price": 793000
+      },
+      {
+        "level": 31,
+        "coinsPerHour": "Lvl 31",
+        "value": 0.105,
+        "price": 872000
+      },
+      {
+        "level": 32,
+        "coinsPerHour": "Lvl 32",
+        "value": 0.11,
+        "price": 960000
+      },
+      {
+        "level": 33,
+        "coinsPerHour": "Lvl 33",
+        "value": 0.115,
+        "price": 1056000
+      },
+      {
+        "level": 34,
+        "coinsPerHour": "Lvl 34",
+        "value": 0.12,
+        "price": 1161000
+      },
+      {
+        "level": 35,
+        "coinsPerHour": "Lvl 35",
+        "value": 0.13,
+        "price": 1277000
+      },
+      {
+        "level": 36,
+        "coinsPerHour": "Lvl 36",
+        "value": 0.135,
+        "price": 1405000
+      },
+      {
+        "level": 37,
+        "coinsPerHour": "Lvl 37",
+        "value": 0.14,
+        "price": 1546000
+      },
+      {
+        "level": 38,
+        "coinsPerHour": "Lvl 38",
+        "value": 0.145,
+        "price": 1700000
+      },
+      {
+        "level": 39,
+        "coinsPerHour": "Lvl 39",
+        "value": 0.15,
+        "price": 1870000
+      },
+      {
+        "level": 40,
+        "coinsPerHour": "Lvl 40",
+        "value": 0.16,
+        "price": 2057000
+      },
+      {
+        "level": 41,
+        "coinsPerHour": "Lvl 41",
+        "value": 0.165,
+        "price": 2263000
+      },
+      {
+        "level": 42,
+        "coinsPerHour": "Lvl 42",
+        "value": 0.17,
+        "price": 2489000
+      },
+      {
+        "level": 43,
+        "coinsPerHour": "Lvl 43",
+        "value": 0.18,
+        "price": 2738000
+      },
+      {
+        "level": 44,
+        "coinsPerHour": "Lvl 44",
+        "value": 0.19,
+        "price": 3012000
+      },
+      {
+        "level": 45,
+        "coinsPerHour": "Lvl 45",
+        "value": 0.2,
+        "price": 3313000
+      },
+      {
+        "level": 46,
+        "coinsPerHour": "Lvl 46",
+        "value": 0.21,
+        "price": 3645000
+      },
+      {
+        "level": 47,
+        "coinsPerHour": "Lvl 47",
+        "value": 0.22,
+        "price": 4009000
+      },
+      {
+        "level": 48,
+        "coinsPerHour": "Lvl 48",
+        "value": 0.23,
+        "price": 4410000
+      },
+      {
+        "level": 49,
+        "coinsPerHour": "Lvl 49",
+        "value": 0.24,
+        "price": 4851000
+      },
+      {
+        "level": 50,
+        "coinsPerHour": "Lvl 50",
+        "value": 0.25,
+        "price": 5336000
+      }
+    ]
+  });
 
   // Cargar rows desde localStorage si existen, sino usar por defecto
 
@@ -5649,6 +6330,26 @@ export default function Rollertap() {
       return newRows;
     });
   };
+
+  useEffect(() => {
+    const savedBlessing = localStorage.getItem('rollertap_unclesBlessing');
+    if (savedBlessing) {
+      setUnclesBlessing(JSON.parse(savedBlessing));
+    }
+  }, []);
+
+  const handleUnclesBlessingLevelChange = (value: number) => {
+    setUnclesBlessing(prev => {
+      const newLevel = value;
+      const updated = {
+        ...prev,
+        currentLevel: newLevel,
+        value: newLevel > 0 ? prev.levels[newLevel - 1].value : 0
+      };
+      localStorage.setItem('rollertap_unclesBlessing', JSON.stringify(updated));
+      return updated;
+    });
+  }
 
   const getNextLevelColor = (row: any) => {
     let color = getRoiColor(row.levels[row.currentLevel].roiHours);
@@ -5702,6 +6403,11 @@ export default function Rollertap() {
     return `${value.toFixed(2).replace(/\.?0+$/, '')}h`;
   }
 
+  function getTotalIncome() {
+    return handleCoins(rows.reduce((sum, lvl) => sum + lvl.coinsPerHour, 0) * (1 + unclesBlessing.value));
+  }
+
+
   // function transformHamstersData(rawData: any) {
   //   // Convierte el objeto en entries [ [key, value], ... ]
   //   const entries = Object.entries(rawData);
@@ -5730,7 +6436,7 @@ export default function Rollertap() {
   //       }))
   //       .filter(l => !!l.level && !!l.coinsPerHour); // Filtrar niveles inválidos
 
-  //     if (['Mr. Hamster', 'Hamster 19', 'Hamster 20', 'Hamster 22', 'Hamster 23', "Healthy sleep"].includes(hamsterName) || hamsterName == 81) {
+  //     if (['Hamster 20', 'Hamster 22', 'Hamster 23', "Healthy sleep"].includes(hamsterName) || hamsterName == 81) {
   //       continue; // Saltar hamsters específicos
   //     }
   //     result.push({
@@ -5757,7 +6463,7 @@ export default function Rollertap() {
       <div className="resume">
         <div className="resume-profit">
           <span> {t?.rollertap?.coinsPerHour}  
-            <span className="coin"> 🪙{handleCoins(rows.reduce((sum, lvl) => sum + lvl.coinsPerHour, 0))}</span>
+            <span className="coin"> 🪙{getTotalIncome()}</span>
           </span>
         </div>
       </div>
@@ -5808,12 +6514,65 @@ export default function Rollertap() {
           ) : (
             <div className="next-level" style={{ backgroundColor: getNextLevelColor(row) }}>
               <div className="level-title">{t?.rollertap?.nextLevel}</div>
+              <div className="coin">+🪙{handleCoins(row.levels[row.currentLevel].coinsPerHour)}</div>
               <div className="cost">{t?.rollertap?.cost}: 🪙{handleCoins(row.levels[row.currentLevel].price)}</div>
               <div className="roi">{t?.rollertap?.roiInHours}: {handleHours(row.levels[row.currentLevel].roiHours)}</div>
             </div>
           )}
         </div>
       ))}
+      </div>
+      <div className='card-container' style={{borderTop: '2px solid var(--secondary)', marginTop: '20px', paddingTop: '20px'}}>
+        <div className="card">
+          <img src={unclesBlessing.image} alt={unclesBlessing.name} className="card-image" />
+          <div className="card-title">{unclesBlessing.name}</div>
+          <div className="card-level">
+            <div
+              className="level-btn level-down"
+              aria-label="Bajar nivel"
+              onClick={() => {
+                const prevLevel = Math.max(0, unclesBlessing.currentLevel - 1);
+                handleUnclesBlessingLevelChange(prevLevel);
+              }}
+              style={{ cursor: 'pointer' }}
+            >
+              ▼
+            </div>
+            <input
+              type="number"
+              name='level'
+              min={0}
+              max={unclesBlessing.levels.length}
+              value={unclesBlessing.currentLevel}
+              className="level-input"
+              onChange={e => handleUnclesBlessingLevelChange(Math.max(0, Math.min(unclesBlessing.levels.length, Number(e.target.value))))}
+              onFocus={e => e.target.select()}
+            />
+            <div
+              className="level-btn level-up"
+              aria-label="Subir nivel"
+              onClick={() => {
+                const nextLevel = Math.min(unclesBlessing.levels.length, unclesBlessing.currentLevel + 1);
+                handleUnclesBlessingLevelChange(nextLevel);
+              }}
+              style={{ cursor: 'pointer' }}
+            >
+              ▲
+            </div>
+          </div>
+          <div className="card-profit">
+            {t?.rollertap?.extraIncome}: <span className="coin">{handleCoins(unclesBlessing.value * 100)}%</span>
+          </div>
+          {unclesBlessing.currentLevel === unclesBlessing.levels.length ? (
+            <div className="last-level-message">{t?.rollertap?.lastLevelMessage}</div>
+          ) : (
+              <div className="next-level" style={{ backgroundColor: "var(--secondary)" }}>
+              <div className="level-title">{t?.rollertap?.nextLevel}</div>
+              <div className="coin">+{handleCoins(unclesBlessing.levels[unclesBlessing.currentLevel].value * 100)}%</div>
+              <div className="cost">{t?.rollertap?.cost}: 🪙{handleCoins(unclesBlessing.levels[unclesBlessing.currentLevel].price)}</div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )
