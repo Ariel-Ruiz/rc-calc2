@@ -1,0 +1,38 @@
+{
+  "page_title": "Calculadora Rollercoin",
+  "warning": "Asegurarse de copiar toda la información de la red desde la sección <b>League Power</b>!!!!",
+  "networkLabel": "Red de tu liga",
+  "networkPlaceholder": "Pega aquí los datos de la red...",
+  "powerLabel": "Poder en Ph/s",
+  "powerPlaceholder": "Tu poder (PH/s)",
+  "processBtn": "CALCULAR",
+  "thCoin": "MONEDA",
+  "thNetPower": "RED",
+  "thReward": "BLOQUE",
+  "thBlockTime": "TIEMPO BLOQUE",
+  "thPerBlock": "POR BLOQUE",
+  "thPerDay": "POR DÍA",
+  "thPerWeek": "POR SEMANA",
+  "thPerMonth": "POR MES",
+  "sidebar": {
+    "calculadoras": "CALCULADORAS",
+    "profit": "PROFIT",
+    "rollertap": "ROLLERTAP",
+    "proximamente": "Próximamente"
+  },
+  "nav" : {
+    "profit" : "GANANCIAS",
+    "rollertap" : "ROLLERTAP"
+  },
+  "rollertap": {
+    "coinsPerHour": "Monedas por hora",
+    "profitPerHour": "Ganancia por hora",
+    "nextLevel": "Siguiente nivel",
+    "cost": "Costo",
+    "roiInHours": "ROI en horas",
+    "lastLevelMessage": "Estás en el último nivel",
+    "help": "Configura el nivel de tus hamsters tal y como lo tienes en el bot de Telegram 🦆",
+    "createAccount": "Puedes crear tu cuenta de Rollertap ",
+    "here": "Aquí"
+  }
+}

@@ -1,0 +1,527 @@
+:root {
+  --primary: #181928;
+  --text-primary: #c3b0d0;
+  --text-primary-active: #ffffff;
+  --text-secondary: #2f3045;
+  --secondary: #2f3045;
+  --accent: #03e1e4;
+  --coin: #ffdc00;
+  --success: #4caf50;
+}
+
+/* * {
+  font-family: 'Press Start 2P', cursive;
+} */
+
+body.light {
+  --bg: #f5f5f5;
+  --text-primary: #222;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--primary);
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--secondary);
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* 🔘 Botón idioma */
+#toggleLang {
+  width: 25px;
+  height: 25px;
+  margin: 0 !important;
+  background: transparent;
+  color: var(--accent) !important;
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+h5 {
+  margin-bottom: 0px;
+}
+
+#warning {
+  margin-bottom: 1rem;
+}
+
+.container {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: start;
+}
+
+textarea,
+input {
+  width: 93%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: var(--secondary);
+  color: var(--text-primary);
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: var(--accent);
+  color: var(--text-secondary);
+  font-weight: 800;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: .75rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--primary);
+  color: var(--text-primary);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.85rem;
+}
+
+th,
+td {
+  padding: 0.2rem;
+  text-align: center;
+  border-bottom: 1px solid var(--secondary);
+  word-break: break-word;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+th {
+  background: var(--secondary);
+  /* color: white; */
+}
+
+tr:hover {
+  background-color: var(--secondary);
+}
+
+.editable {
+  width: 80px;
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: center;
+  margin: 8px;
+}
+
+.symbol-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+/* Botones flotantes */
+.floating-buttons {
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 999;
+}
+
+.floating-buttons button {
+  margin: 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-section {
+  width: 35%;
+}
+
+.results-section {
+  width: 65%;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 10px;
+  width: 100%;
+  background-color: var(--secondary);
+  padding: 8px;
+}
+
+.coin_swap {
+  width: 50px;
+}
+
+.result-buttons {
+  /* background: var(--secondary); */
+  /* margin: 3px; */
+  display: flex;
+  justify-content: end;
+  margin-bottom: .7em;
+}
+
+.result-buttons > .toogle-currency-tab {
+  background-color: var(--primary);
+  /* border: 3px solid var(--secondary); */
+  /* border-radius: 1em; */
+  display: flex;
+}
+
+.toogle-currency {
+  padding: .2em 1em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: .8rem;
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  width: 50px;
+  text-align: center;
+  user-select: none;
+}
+
+#toogle-crypto {
+  border-radius: .5em 0em 0em .5em;
+}
+#toogle-usd {
+  border-radius: 0em .5em .5em 0em;
+}
+
+.toogle-currency.active {
+  background: var(--accent);
+  color: var(--text-secondary);
+}
+
+/* 📱 Responsivo */
+@media (max-width: 900px) {
+  .container {
+    display: block;
+  }
+
+  .input-section {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .results-section {
+    width: 100%;
+  }
+
+  .table-wrapper table {
+    width: 800px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+
+  th,
+  td {
+    padding: 0.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* ------------- SIDEBAR (mejor control) ------------- */
+
+/* Por defecto: oculto (mobile behavior) */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: var(--secondary);
+  color: var(--text-primary);
+  padding-top: 60px;
+  /* espacio para header */
+  transform: translateX(0);
+  transition: transform 0.28s ease, margin-left 0.28s ease;
+  z-index: 9999;
+}
+
+/* Mobile - mostrar */
+.sidebar.visible {
+  transform: translateX(-100%);
+}
+
+/* Desktop: por defecto visible */
+@media (min-width: 900px) {
+  .sidebar {
+    transform: translateX(-100%);
+    /* display: none; */
+  }
+
+  /* Si la barra tiene la clase show la ocultamos */
+  .sidebar.show {
+    transform: translateX(0) !important;
+  }
+}
+
+/* Asegura que el header está encima por si acaso (botón dentro del header) */
+header {
+  position: relative;
+  z-index: 10000;
+}
+
+/* Botón hamburguesa en header (visible siempre) */
+.navbar-toggle {
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-right: .5rem;
+  font-weight: bold;
+  background: none;
+  width: auto;
+  margin: 0;
+}
+
+.dropdown {
+  padding: .8rem;
+}
+
+.dropdown-btn {
+  font-weight: bold;
+  padding: .4rem;
+  border-bottom: 1px solid var(--text-primary);
+  color: var(--text-primary-active);
+}
+
+.dropdown-item {
+  padding: .6rem .4rem 0rem .4rem;
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.dropdown-item > a {
+  text-decoration: none;
+}
+
+.dropdown-item > a.active {
+  color: var(--accent);
+}
+
+.dropdown-item.disabled-link {
+  opacity: .6;
+}
+
+#menuRollertapSoon {
+  font-size: .6rem;
+  opacity: .6;
+}
+
+/* Estilos generales del navbar */
+.navbar {
+  background-color: var(--secondary);
+  /* padding: 1rem; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Estilos de los enlaces de navegación para escritorio */
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+  
+.navbar-lang-container,
+.navbar-tittle {
+  width: 25%;
+}
+
+.navbar-lang-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-links a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: var(--text-primary-active);
+}
+.navbar-links a.active {
+  color: var(--accent);
+}
+
+/* Ocultar el botón de hamburguesa en el escritorio */
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-lang-movil {
+  display: none !important;
+}
+
+/*
+  Media query para dispositivos móviles
+  Cuando la pantalla tiene un ancho máximo de 768px, se aplican estos estilos.
+*/
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar-tittle {
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .navbar-lang-container {
+    display: none !important;
+  }
+
+  .navbar-lang-movil {
+    display: flex !important;
+  }
+}
+
+/* ... (tu CSS existente para .navbar, .navbar-container, .navbar-title, etc.) ... */
+
+/* Estilos de los enlaces de navegación para escritorio */
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  /* Asegura que el contenido sea visible en escritorio */
+  max-height: none;
+  overflow: visible;
+  transition: none;
+  /* Deshabilita la transición en escritorio */
+}
+
+.navbar-lang {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ocultar el botón de hamburguesa en el escritorio */
+.navbar-toggle {
+  display: none;
+}
+
+/*
+  Media query para dispositivos móviles
+  Cuando la pantalla tiene un ancho máximo de 768px, se aplican estos estilos.
+*/
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-wrap: wrap;
+  }
+
+  /* Mostrar el botón de hamburguesa en móviles */
+  .navbar-toggle {
+    display: block;
+  }
+
+  /*
+    Estilos para la animación de deslizamiento en móviles
+  */
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    /* Fondo del menú desplegable */
+    margin: 0;
+    overflow: hidden;
+    /* Oculta el contenido que excede el max-height */
+    max-height: 0;
+    /* Por defecto, el menú está cerrado (altura 0) */
+    transition: max-height 0.4s ease-in-out;
+    /* Animación de max-height */
+  }
+
+  /* Mostrar los enlaces cuando el menú está abierto */
+  .navbar-links.open {
+    max-height: 200px;
+    /* Ajusta este valor según la altura máxima esperada de tu menú */
+    /* Puedes usar un valor lo suficientemente grande para asegurar que todo el contenido sea visible */
+  }
+
+  /* Estilos específicos para los enlaces en el menú desplegable */
+  .navbar-links a,
+  .navbar-lang {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    /* border-bottom: 1px solid var(--text-primary); */
+  }
+
+  .navbar-links a:last-child,
+  .navbar-lang {
+    border-bottom: none;
+    padding-top: 0;
+    padding-bottom: .5rem;
+  }
+}
