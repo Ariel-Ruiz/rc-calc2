@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <I18nProvider>
       <SidebarProvider>
-        <BrowserRouter basename="/rc-calculator">
+        <BrowserRouter basename="/rc-calc2">
           <App />
         </BrowserRouter>
       </SidebarProvider>

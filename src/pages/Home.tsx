@@ -6,17 +6,17 @@ import { convertirAHs, tiempoASegundos } from '../lib/calculations'
 type ParsedLine = { symbol: string; power: string; reward: string; blockTime: string }
 
 const symbolIcons: Record<string, string> = {
-  RLT: '/symbols/rlt.svg',
-  RST: '/symbols/rst.svg',
-  BTC: '/symbols/btc.svg',
-  ETH: '/symbols/eth.svg',
-  LTC: '/symbols/ltc.svg',
-  BNB: '/symbols/bnb.svg',
-  DOGE: '/symbols/doge.svg',
-  XRP: '/symbols/xrp.svg',
-  TRX: '/symbols/trx.svg',
-  SOL: '/symbols/sol.svg',
-  POL: '/symbols/matic.svg'
+  RLT: 'rc-calc2/symbols/rlt.svg',
+  RST: 'rc-calc2/symbols/rst.svg',
+  BTC: 'rc-calc2/symbols/btc.svg',
+  ETH: 'rc-calc2/symbols/eth.svg',
+  LTC: 'rc-calc2/symbols/ltc.svg',
+  BNB: 'rc-calc2/symbols/bnb.svg',
+  DOGE: 'rc-calc2/symbols/doge.svg',
+  XRP: 'rc-calc2/symbols/xrp.svg',
+  TRX: 'rc-calc2/symbols/trx.svg',
+  SOL: 'rc-calc2/symbols/sol.svg',
+  POL: 'rc-calc2/symbols/matic.svg'
 }
 
 export default function Home() {
@@ -126,7 +126,7 @@ export default function Home() {
     <div className="container">
       <div className="input-section">
         <div id="warning" style={{ color: '#e85217' }}>{t.warning || 'Asegúrese...'}</div>
-        <img src="/example.png" width="70%" alt="example" />
+        <img src="rc-calc2/example.png" width="70%" alt="example" />
         <h5 id="networkLabel">{t.networkLabel || 'Red de tu liga'}</h5>
         <textarea
           id="networkInput"

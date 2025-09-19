@@ -1,4 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react'
+import en from '../lang/en.json'
+import es from '../lang/es.json'
 
 type Translations = Record<string, any>
 
@@ -21,12 +23,11 @@ export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   async function loadLang(l: 'EN' | 'ES') {
     try {
-      const res = await fetch(`/lang/${l.toLowerCase()}.json`)
-      const json = await res.json()
+      const json = l === 'EN' ? en : es
       setT(json)
       setLang(l)
       localStorage.setItem('rc_lang', l)
-      if (json.title) document.title = json.title
+      // if (json.title) document.title = json.title
     } catch (err) {
       console.error('error loading lang', err)
     }
