@@ -21,7 +21,7 @@ import hamJinn from '../assets/rollertap/14.png';
 import mrHamster from '../assets/rollertap/15.png';
 import bigBossHamster from '../assets/rollertap/16.png';
 import uncleBlessing from '../assets/rollertap/19.gif';
-import ofiiceHamster from '../assets/rollertap/22.png';
+import officeHamster from '../assets/rollertap/22.png';
 import fifiHamster from '../assets/rollertap/23.png';
 
 export default function Rollertap() {
@@ -5484,8 +5484,8 @@ export default function Rollertap() {
     },
     {
       "id": 22,
-      "name": "Ofiice Hamster",
-      "image": ofiiceHamster,
+      "name": "Office Hamster",
+      "image": officeHamster,
       "currentLevel": 0,
       "coinsPerHour": 0,
       "levels": [
