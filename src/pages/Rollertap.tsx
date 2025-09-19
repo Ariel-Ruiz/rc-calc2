@@ -6522,7 +6522,7 @@ export default function Rollertap() {
         </div>
       ))}
       </div>
-      <div className='card-container' style={{borderTop: '2px solid var(--secondary)', marginTop: '20px', paddingTop: '20px'}}>
+      <div className='card-container' style={{borderTop: '2px solid var(--secondary)', marginTop: '20px', paddingTop: '20px', marginBottom: '40px'}}>
         <div className="card">
           <img src={unclesBlessing.image} alt={unclesBlessing.name} className="card-image" />
           <div className="card-title">{unclesBlessing.name}</div>
